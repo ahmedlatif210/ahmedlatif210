@@ -2,7 +2,7 @@
 
 # Ahmed Latif
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1000&color=6366F1&center=true&vCenter=true&width=720&lines=Software+Engineer;Full-Stack+%7C+Next.js+%C2%B7+Node.js+%C2%B7+PostgreSQL;Multi-tenant+SaaS+%C2%B7+Desktop+%C2%B7+Real-time;From+database+schema+to+production)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1000&color=6366F1&center=true&vCenter=true&width=720&lines=Software+Engineer;Full-Stack+%7C+NestJS+%C2%B7+Next.js+%C2%B7+PostgreSQL;Multi-tenant+SaaS+%C2%B7+Desktop+%C2%B7+Real-time;From+database+schema+to+production)](https://git.io/typing-svg)
 
 **I design and ship complete products — database, APIs, security, UI, tests and deployment.**
 
@@ -23,13 +23,13 @@ const ahmed = {
   languages: ["TypeScript", "JavaScript", "SQL"],
   builds: {
     saas: "Multi-tenant web platforms with billing, roles and admin",
-    backend: "REST APIs, auth & sessions, background jobs, integrations",
+    backend: "NestJS, Express & Next.js APIs, auth & sessions, background jobs",
     data: "PostgreSQL schemas with Prisma, SQLite for offline apps",
     desktop: "Offline-first Electron apps (POS, gym management)",
     realTime: "Socket.io, WebRTC/Jitsi, push notifications",
   },
   principles: ["Secure by default", "Tested end to end", "Simple to operate"],
-  currentFocus: "SaaS products for the Egyptian and MENA market",
+  currentFocus: "Scalable backends and multi-tenant web platforms",
 };
 ```
 
@@ -42,7 +42,7 @@ const ahmed = {
 <td width="50%" valign="top">
 
 #### 🧱 Backend & data
-Relational schema design, Prisma on PostgreSQL, transactional business logic (no double-payment, no double-booking), idempotent jobs, scheduled tasks, signed file uploads, transactional email.
+REST APIs with NestJS (modules, guards, DTO validation) and Express, relational schema design, Prisma on PostgreSQL, transactional business logic (no double-payment, no double-booking), idempotent jobs, scheduled tasks, signed file uploads, transactional email.
 
 </td>
 <td width="50%" valign="top">
@@ -86,19 +86,6 @@ Socket.io, WebRTC / Jitsi video, OneSignal notifications; accessible RTL Arabic 
 
 ## Featured work
 
-### SaaS platforms — production-ready, source private
-
-| Product | What it does | Engineering highlights |
-| :--- | :--- | :--- |
-| **Sentra** (سنتر) | Fees and attendance for tutoring centers: monthly invoices, parent payments by InstaPay screenshot, QR-card check-in, parent portal | Idempotent invoice generation, owner / assistant / teacher roles, tenant-isolated data, 337 automated API checks + 90 browser checks |
-| **Maw3ed** (موعد) | Clinic booking with deposits, WhatsApp confirmation and QR check-in, multi-doctor clinics | Slot locking against double booking, timezone-safe scheduling, HMAC-signed gate passes, background workers |
-| **Bawaaba** (بوابة) | Sell digital products with manual payment review and automatic delivery | Signed, expiring download links, private file storage, commission-based plans |
-| **DukanWA** (دكان واتساب) | WhatsApp storefronts for small Egyptian brands | Inventory-safe ordering, shipping-company exports, plan limits and referrals |
-
-All four share one stack — **Next.js · Prisma · PostgreSQL (Neon) · Cloudinary · Resend · Upstash · Vercel** — with server-side sessions, an admin panel for billing and pricing, and full security and UI test suites. Demos available on request.
-
-### Desktop & business apps
-
 - **Restaurant POS** — Electron + React + SQLite, offline point of sale
 - **Market POS / cashier** — Electron + React + SQLite with an embedded Express API
 - **Gym management** — Electron + React + SQLite, bilingual (i18next)
@@ -119,6 +106,7 @@ All four share one stack — **Next.js · Prisma · PostgreSQL (Neon) · Cloudin
 **Backend, APIs & data**
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js_(Route_Handlers)-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
